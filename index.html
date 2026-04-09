@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESAID Kavram Kartları</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">RESAID</p>
+          <h1 class="app-title">Kavram Kartları</h1>
+        </div>
+        <div class="progress-group">
+          <p class="progress-label">İlerleme</p>
+          <p class="progress-value" id="progress-value">1 / 1</p>
+        </div>
+      </header>
+
+      <section class="stage">
+        <button class="nav-button" id="prev-button" type="button" aria-label="Önceki kart">
+          &#8249;
+        </button>
+
+        <article class="card-stage">
+          <div class="card-perspective">
+            <div class="card-wrap" id="card-wrap">
+              <section class="card-face card-front">
+                <div class="card-frame">
+                  <div class="card-rim"></div>
+                  <div class="card-heading">
+                    <p class="card-label">Kavram</p>
+                    <h2 class="card-title" id="front-title">Başlık</h2>
+                  </div>
+                  <div class="image-shell">
+                    <img id="card-image" alt="" />
+                  </div>
+                  <div class="card-footer">
+                    <span class="footer-chip">Çevirmek için tıklayın</span>
+                  </div>
+                </div>
+              </section>
+
+              <section class="card-face card-back">
+                <div class="card-back-shell">
+                  <div class="card-rim"></div>
+                  <div class="card-back-header">
+                    <p class="card-label">Açıklama</p>
+                    <h2 class="card-title" id="back-title">Başlık</h2>
+                  </div>
+                  <div class="card-text" id="card-text"></div>
+                  <div class="card-footer back-footer">
+                    <span class="footer-chip">Sonraki karta geçmek için alttaki düğmeleri kullanın</span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </article>
+
+        <button class="nav-button" id="next-button" type="button" aria-label="Sonraki kart">
+          &#8250;
+        </button>
+      </section>
+
+      <footer class="controls">
+        <button class="control-button ghost" id="flip-button" type="button">Çevir</button>
+        <div class="sequence-buttons">
+          <button class="control-button secondary" id="prev-bottom-button" type="button">Önceki</button>
+          <button class="control-button primary" id="next-bottom-button" type="button">Sonraki</button>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./deck-data.js"></script>
+    <script src="./script.js"></script>
+  </body>
+  </html>
