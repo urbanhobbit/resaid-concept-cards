@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1376" width="768" height="1376">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff7a2f" stop-opacity="0.85"/>
+      <stop offset="0.45" stop-color="#f05a28" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#7b4bd6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a97ad"/>
+      <stop offset="1" stop-color="#4c5b78"/>
+    </linearGradient>
+    <g id="gearTooth">
+      <rect x="-14" y="-118" width="28" height="30" rx="4"/>
+    </g>
+  </defs>
+
+  <!-- paper + frame -->
+  <rect width="768" height="1376" fill="#f3f3ef"/>
+  <rect x="14" y="14" width="740" height="1348" rx="18" fill="none" stroke="#1f2d4a" stroke-width="10"/>
+  <rect x="34" y="34" width="700" height="1308" rx="8" fill="none" stroke="#1f2d4a" stroke-width="1.5" opacity="0.6"/>
+  <rect x="190" y="48" width="388" height="40" rx="6" fill="#172447"/>
+  <g stroke="#1f2d4a" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M50 120 v-30 h30"/><path d="M718 120 v-30 h-30"/>
+    <path d="M50 1256 v30 h30"/><path d="M718 1256 v30 h-30"/>
+  </g>
+
+  <!-- blueprint rings -->
+  <g fill="none" stroke="#4a5a86" stroke-width="1" opacity="0.35">
+    <circle cx="384" cy="690" r="150"/><circle cx="384" cy="690" r="220"/>
+    <circle cx="384" cy="690" r="290"/><circle cx="384" cy="690" r="330" stroke-dasharray="4 8"/>
+    <path d="M40 690 H728"/><path d="M384 300 V1080"/>
+    <ellipse cx="384" cy="690" rx="330" ry="120" transform="rotate(-28 384 690)"/>
+    <ellipse cx="384" cy="690" rx="330" ry="120" transform="rotate(28 384 690)"/>
+  </g>
+
+  <!-- head profile -->
+  <path d="M470 1040 C470 980 480 950 520 925 C560 905 585 880 585 840 L600 800 C610 790 606 778 594 772 L585 768
+           C590 745 598 720 596 690 C594 560 500 470 380 470 C260 470 170 560 170 690 C170 790 220 860 290 900
+           C300 960 296 1000 286 1040 Z"
+        fill="url(#head)" stroke="#1f2d4a" stroke-width="3" opacity="0.92"/>
+  <path d="M190 640 C230 560 300 520 380 515" fill="none" stroke="#c9d1df" stroke-width="2" opacity="0.6"/>
+
+  <!-- clash glow -->
+  <circle cx="390" cy="680" r="120" fill="url(#glow)"/>
+
+  <!-- left gear (blue) -->
+  <g transform="translate(300 680)">
+    <g fill="#2d4a8a" stroke="#14213f" stroke-width="2">
+      <use href="#gearTooth" transform="rotate(0)"/><use href="#gearTooth" transform="rotate(36)"/>
+      <use href="#gearTooth" transform="rotate(72)"/><use href="#gearTooth" transform="rotate(108)"/>
+      <use href="#gearTooth" transform="rotate(144)"/><use href="#gearTooth" transform="rotate(180)"/>
+      <use href="#gearTooth" transform="rotate(216)"/><use href="#gearTooth" transform="rotate(252)"/>
+      <use href="#gearTooth" transform="rotate(288)"/><use href="#gearTooth" transform="rotate(324)"/>
+    </g>
+    <circle r="92" fill="#3a5aa0" stroke="#14213f" stroke-width="3"/>
+    <circle r="60" fill="none" stroke="#9fb4e0" stroke-width="2" opacity="0.7"/>
+    <circle r="20" fill="#f3f3ef" stroke="#14213f" stroke-width="3"/>
+    <path d="M0 -60 A60 60 0 0 1 52 -30" fill="none" stroke="#9fb4e0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-80 -80 l-18 -18 m4 0 h-12 v12" fill="none" stroke="#9fb4e0" stroke-width="3"/>
+  </g>
+
+  <!-- right gear (orange), misaligned/tilted -->
+  <g transform="translate(486 640) rotate(14)">
+    <g fill="#e2622a" stroke="#6a2a10" stroke-width="2">
+      <use href="#gearTooth" transform="rotate(18) scale(0.8)"/><use href="#gearTooth" transform="rotate(63) scale(0.8)"/>
+      <use href="#gearTooth" transform="rotate(108) scale(0.8)"/><use href="#gearTooth" transform="rotate(153) scale(0.8)"/>
+      <use href="#gearTooth" transform="rotate(198) scale(0.8)"/><use href="#gearTooth" transform="rotate(243) scale(0.8)"/>
+      <use href="#gearTooth" transform="rotate(288) scale(0.8)"/><use href="#gearTooth" transform="rotate(333) scale(0.8)"/>
+    </g>
+    <circle r="74" fill="#f07a3a" stroke="#6a2a10" stroke-width="3"/>
+    <circle r="46" fill="none" stroke="#ffd2b0" stroke-width="2" opacity="0.8"/>
+    <circle r="16" fill="#f3f3ef" stroke="#6a2a10" stroke-width="3"/>
+    <path d="M60 30 l18 14 m-2 -12 v14 h-14" fill="none" stroke="#ffd2b0" stroke-width="3"/>
+  </g>
+
+  <!-- sparks at contact point -->
+  <g stroke="#ffb347" stroke-width="3" stroke-linecap="round">
+    <path d="M398 660 l-30 -46"/><path d="M404 664 l8 -60"/><path d="M410 670 l46 -34"/>
+    <path d="M398 676 l-44 6"/><path d="M406 680 l28 40"/>
+  </g>
+  <g fill="#fff3d6"><circle cx="404" cy="668" r="9"/><circle cx="372" cy="612" r="4"/><circle cx="458" cy="634" r="4"/><circle cx="414" cy="600" r="3"/></g>
+
+  <!-- mechanical arm forcing alignment -->
+  <g fill="none" stroke="#1f2d4a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M640 330 L610 430 L560 520"/>
+    <circle cx="640" cy="330" r="14" fill="#f3f3ef"/>
+    <circle cx="610" cy="430" r="12" fill="#f3f3ef"/>
+    <path d="M560 520 l-26 -8 m26 8 l-6 28" stroke="#7b4bd6"/>
+  </g>
+  <path d="M520 560 C470 560 440 590 430 620" fill="none" stroke="#7b4bd6" stroke-width="2.5" stroke-dasharray="6 6"/>
+  <path d="M424 612 l6 12 l10 -8" fill="none" stroke="#7b4bd6" stroke-width="2.5"/>
+
+  <!-- tension waves -->
+  <g fill="none" stroke="#7b4bd6" stroke-width="2" opacity="0.55">
+    <path d="M120 420 q20 -20 40 0 t40 0 t40 0"/>
+    <path d="M560 960 q20 -20 40 0 t40 0 t40 0"/>
+  </g>
+</svg>

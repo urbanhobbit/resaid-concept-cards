@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1376" width="768" height="1376"><defs>
+<radialGradient id="glow"><stop offset="0" stop-color="#ff7a2f" stop-opacity="0.85"/><stop offset="0.45" stop-color="#f05a28" stop-opacity="0.35"/><stop offset="1" stop-color="#7b4bd6" stop-opacity="0"/></radialGradient>
+<radialGradient id="redglow"><stop offset="0" stop-color="#ff3b1f" stop-opacity="0.95"/><stop offset="0.5" stop-color="#ff6a2f" stop-opacity="0.4"/><stop offset="1" stop-color="#ff6a2f" stop-opacity="0"/></radialGradient>
+<radialGradient id="pit"><stop offset="0" stop-color="#ff7a2f"/><stop offset="0.6" stop-color="#7b2c6b"/><stop offset="1" stop-color="#1f2d4a"/></radialGradient>
+<linearGradient id="head" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8a97ad"/><stop offset="1" stop-color="#4c5b78"/></linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb347" stop-opacity="0.7"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="768" height="1376" fill="#f3f3ef"/>
+<rect x="14" y="14" width="740" height="1348" rx="18" fill="none" stroke="#1f2d4a" stroke-width="10"/>
+<rect x="34" y="34" width="700" height="1308" rx="8" fill="none" stroke="#1f2d4a" stroke-width="1.5" opacity="0.6"/>
+<rect x="190" y="48" width="388" height="40" rx="6" fill="#172447"/>
+<g stroke="#1f2d4a" stroke-width="2" fill="none" opacity="0.7"><path d="M50 120 v-30 h30"/><path d="M718 120 v-30 h-30"/><path d="M50 1256 v30 h30"/><path d="M718 1256 v30 h-30"/></g>
+<g fill="none" stroke="#4a5a86" stroke-width="1" opacity="0.3"><circle cx="384" cy="690" r="220"/><circle cx="384" cy="690" r="300"/><circle cx="384" cy="690" r="330" stroke-dasharray="4 8"/><path d="M40 690 H728"/><path d="M384 300 V1080"/></g>
+
+<path d="M175 170 L225 170 L300 600 L100 600 Z" fill="url(#beam)" opacity="0.85"/>
+<rect x="165" y="140" width="70" height="34" rx="6" fill="#1f2d4a"/>
+<path d="M60 1060 L60 1010 C120 900 150 640 200 600 C230 580 250 700 290 860 C320 960 360 990 420 960 C520 900 600 760 708 640 L708 1060 Z" fill="#c9d0de" stroke="#1f2d4a" stroke-width="4" stroke-linejoin="round"/>
+<g fill="none" stroke="#1f2d4a" stroke-width="1.5" opacity="0.4"><path d="M120 1000 C150 900 170 760 200 660"/><path d="M460 1000 C540 900 610 800 700 700"/><path d="M300 1040 C340 1010 380 1010 420 1000"/></g>
+<g fill="#1f2d4a" opacity="0.7"><rect x="176" y="580" width="48" height="8" rx="3"/></g>
+<g><path d="M183.8 600 L200 543.3 L216.2 600" fill="none" stroke="#f07a3a" stroke-width="8.1" stroke-linecap="round" stroke-linejoin="round"/><path d="M200 481.2 L200 543.3" stroke="#f07a3a" stroke-width="9.0" stroke-linecap="round"/><path d="M169.4 456.0 L200 498.75 L230.6 456.0" fill="none" stroke="#f07a3a" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="200" cy="465.0" r="14.4" fill="#f07a3a"/></g>
+<g fill="none" stroke="#f07a3a" stroke-width="3" opacity="0.8"><path d="M150 430 l-20 -20"/><path d="M200 420 v-28"/><path d="M250 430 l20 -20"/></g>
+<g stroke="#4a5a86" stroke-width="2" stroke-dasharray="4 6"><path d="M60 600 H708" opacity="0.4"/></g>
+<path d="M510 870 L700 650" stroke="#7b4bd6" stroke-width="3"/>
+<g fill="#7b4bd6"><circle cx="700" cy="650" r="7"/><circle cx="610" cy="755" r="5"/></g>
+<g transform="rotate(-38 530 860)"><g><path d="M516.5 860 L530 812.75 L543.5 860" fill="none" stroke="#3a5aa0" stroke-width="6.75" stroke-linecap="round" stroke-linejoin="round"/><path d="M530 761.0 L530 812.75" stroke="#3a5aa0" stroke-width="7.5" stroke-linecap="round"/><path d="M510.5 803.75 L530 775.625 L560.0 764.375" fill="none" stroke="#3a5aa0" stroke-width="6.0" stroke-linecap="round" stroke-linejoin="round"/><circle cx="530" cy="747.5" r="12.0" fill="#3a5aa0"/></g></g>
+<g transform="translate(470 905) rotate(-38)"><rect x="-18" y="-14" width="36" height="28" rx="4" fill="#1f2d4a"/><path d="M-10 -14 v-10 h20 v10" fill="none" stroke="#1f2d4a" stroke-width="4"/></g>
+<g fill="none" stroke="#9fb4e0" stroke-width="2"><path d="M440 1080 h240"/><path d="M440 1100 h180"/></g>
+
+</svg>
