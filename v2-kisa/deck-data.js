@@ -1,0 +1,126 @@
+window.DECK_DATA = {
+  "title": "RESAID Kavram Kartları (Kısa)",
+  "count": 13,
+  "cards": [
+    {
+      "id": 1,
+      "title": "Bilişsel Cimrilik (Cognitive Miserliness)",
+      "text": "Beynimizin karar verirken fazla enerji harcamamak adına bir nevi \"tasarruf modunda\" çalışıp kestirme yollara başvurmasıdır. Bu pratik kısa yollar günlük yaşamda hızlı karar almamızı sağlayarak işimizi kolaylaştırsa da karşılaştığımız içerikleri ve haberleri sorgulamadan kabullenmemize, dolayısıyla yanlış ve manipülatif bilgilere karşı savunmasız kalmamıza yol açabilir.",
+      "paragraphs": [
+        "Beynimizin karar verirken fazla enerji harcamamak adına bir nevi \"tasarruf modunda\" çalışıp kestirme yollara başvurmasıdır. Bu pratik kısa yollar günlük yaşamda hızlı karar almamızı sağlayarak işimizi kolaylaştırsa da karşılaştığımız içerikleri ve haberleri sorgulamadan kabullenmemize, dolayısıyla yanlış ve manipülatif bilgilere karşı savunmasız kalmamıza yol açabilir."
+      ],
+      "image": "../assets/images/slide_02_bilişsel-tasarruf-kestirme-yollar-heuristics.jpeg"
+    },
+    {
+      "id": 2,
+      "title": "İkili Düşünme Sistemi",
+      "text": "İnsan zihni karar verirken iki farklı modda çalışır: • Hızlı, otomatik ve çabasız çalışan Sistem 1 (Otopilot) • Yavaş, mantıklı ve eleştirel düşünen Sistem 2 (Pilot). Beynimiz fazla enerji harcamamak için çoğunlukla yorulmadan çalışan Sistem 1’i tercih eder. Sosyal medyadaki kışkırtıcı ve duygusal içerikler Sistem 1’i tetikler; yavaş ve şüpheci olan Sistem 2 henüz uyanıp sorgulamaya vakit bulamadan yanlış bilgilere inanmamıza yol açar.",
+      "paragraphs": [
+        "İnsan zihni karar verirken iki farklı modda çalışır:",
+        "• Hızlı, otomatik ve çabasız çalışan Sistem 1 (Otopilot)",
+        "• Yavaş, mantıklı ve eleştirel düşünen Sistem 2 (Pilot).",
+        "Beynimiz fazla enerji harcamamak için çoğunlukla yorulmadan çalışan Sistem 1’i tercih eder. Sosyal medyadaki kışkırtıcı ve duygusal içerikler Sistem 1’i tetikler; yavaş ve şüpheci olan Sistem 2 henüz uyanıp sorgulamaya vakit bulamadan yanlış bilgilere inanmamıza yol açar."
+      ],
+      "image": "../assets/images/slide_03_bilişsel-tembellik-vs-analitik-düşünme.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Doğrulama Yanlılığı (Confirmation Bias)",
+      "text": "İnsanın bir şeye önceden inanıyorsa, internette ve çevresinde sadece o inancını haklı çıkaran haberleri, videoları ve yorumları seçip kabul etmesidir. Doğrulama yanlılığı bilişsel uyumsuzluğu ortadan kaldırma stratejisi olarak görülebilir. Karşımıza aksini ispatlayan sağlam kanıtlar çıksa bile zihin onları \"yanlıştır, uydurmadır\" diyerek otomatik olarak görmezden gelir. Örneğin bir siyasi adayı destekleyen kişinin, o adayın sadece başarı haberlerini okuması, yaptığı hataları veya eleştirileri içeren haberleri es geçmesi.",
+      "paragraphs": [
+        "İnsanın bir şeye önceden inanıyorsa, internette ve çevresinde sadece o inancını haklı çıkaran haberleri, videoları ve yorumları seçip kabul etmesidir. Doğrulama yanlılığı bilişsel uyumsuzluğu ortadan kaldırma stratejisi olarak görülebilir. Karşımıza aksini ispatlayan sağlam kanıtlar çıksa bile zihin onları \"yanlıştır, uydurmadır\" diyerek otomatik olarak görmezden gelir. Örneğin bir siyasi adayı destekleyen kişinin, o adayın sadece başarı haberlerini okuması, yaptığı hataları veya eleştirileri içeren haberleri es geçmesi."
+      ],
+      "image": "../v2/assets/images/v2_04_dogrulama-yanliligi.svg"
+    },
+    {
+      "id": 4,
+      "title": "Yanıltıcı Doğruluk Etkisi (Illusory Truth Effect)",
+      "text": "Bir iddia veya yalan ne kadar saçma olursa olsun, tekrar tekrar duyulduğunda zamanla zihinde \"tanıdık\" hale gelir. İnsan beyni enerji tasarrufu yapmayı sevdiği için bu zihinsel kolaylığı ve aşinalık hissini otomatik olarak bir \"doğruluk\" işareti sanır. Örneğin sosyal medyada paylaşılan bir yalan haberin veya şehir efsanesinin, yüzlerce kez önümüze çıkması sonucu bir süre sonra bize mantıklı ve gerçek gelmeye başlaması.",
+      "paragraphs": [
+        "Bir iddia veya yalan ne kadar saçma olursa olsun, tekrar tekrar duyulduğunda zamanla zihinde \"tanıdık\" hale gelir. İnsan beyni enerji tasarrufu yapmayı sevdiği için bu zihinsel kolaylığı ve aşinalık hissini otomatik olarak bir \"doğruluk\" işareti sanır. Örneğin sosyal medyada paylaşılan bir yalan haberin veya şehir efsanesinin, yüzlerce kez önümüze çıkması sonucu bir süre sonra bize mantıklı ve gerçek gelmeye başlaması."
+      ],
+      "image": "../v2/assets/images/v2_08_yaniltici-dogruluk-etkisi.svg"
+    },
+    {
+      "id": 5,
+      "title": "Dikkat Ekonomisi (Attention Economy)",
+      "text": "Dijital dünyadaki aşırı bilgi bolluğu karşısında insan dikkatinin sınırlı ve değerli bir kaynağa dönüşmesidir. Bu düzende kullanıcılar müşteri değil; ekran başındaki zamanları, dikkatleri ve davranışları reklamverenlere satılan birer \"hammaddedir\". Sosyal medya platformları ve algoritmalar, reklam gelirlerini artırmak amacıyla, bizi olabildiğince uzun süre platformda tutacak şekilde tasarlanmıştır.",
+      "paragraphs": [
+        "Dijital dünyadaki aşırı bilgi bolluğu karşısında insan dikkatinin sınırlı ve değerli bir kaynağa dönüşmesidir. Bu düzende kullanıcılar müşteri değil; ekran başındaki zamanları, dikkatleri ve davranışları reklamverenlere satılan birer \"hammaddedir\". Sosyal medya platformları ve algoritmalar, reklam gelirlerini artırmak amacıyla, bizi olabildiğince uzun süre platformda tutacak şekilde tasarlanmıştır."
+      ],
+      "image": "../assets/images/slide_08_dikkat-ekonomisi-attention-economy.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "Öfke Tuzağı (Ragebait)",
+      "text": "Kullanıcıyı bilgilendirmek yerine; kasıtlı çarpıtmalar, abartılı başlıklar ve kışkırtıcı söylemlerle doğrudan öfkelendirmeyi hedefleyen içeriklerdir. Dijital dünyada öfke, en hızlı yayılan ve en yüksek etkileşimi getiren duygu olduğu için algoritmalar bu içerikleri sürekli öne çıkararak kitleleri birer tıklama tuzağına çeker.",
+      "paragraphs": [
+        "Kullanıcıyı bilgilendirmek yerine; kasıtlı çarpıtmalar, abartılı başlıklar ve kışkırtıcı söylemlerle doğrudan öfkelendirmeyi hedefleyen içeriklerdir. Dijital dünyada öfke, en hızlı yayılan ve en yüksek etkileşimi getiren duygu olduğu için algoritmalar bu içerikleri sürekli öne çıkararak kitleleri birer tıklama tuzağına çeker."
+      ],
+      "image": "../v2/assets/images/v2_14_ofke-tuzagi.svg"
+    },
+    {
+      "id": 7,
+      "title": "Sonsuz Kaydırma (Infinite Scroll)",
+      "text": "Dijital platformlarda parmağınızı aşağı kaydırdıkça yeni içeriklerin otomatik ve kesintisiz yüklenmesini sağlayan arayüz tasarımıdır. Geleneksel medyadaki sayfa veya bölüm sonu gibi doğal \"durdurma işaretleri\" ortadan kaldırılmıştır. Sayfa sonu hiç görünmeden yeni veriler arka planda yüklenir. Beyne \"bitti, durabilirsin\" sinyali verilmez. \"Acaba bir sonraki içerik ne?\" beklentisiyle bitmemişlik hissi yaratır ve uygulamada kalma süresini artırır.",
+      "paragraphs": [
+        "Dijital platformlarda parmağınızı aşağı kaydırdıkça yeni içeriklerin otomatik ve kesintisiz yüklenmesini sağlayan arayüz tasarımıdır. Geleneksel medyadaki sayfa veya bölüm sonu gibi doğal \"durdurma işaretleri\" ortadan kaldırılmıştır. Sayfa sonu hiç görünmeden yeni veriler arka planda yüklenir. Beyne \"bitti, durabilirsin\" sinyali verilmez. \"Acaba bir sonraki içerik ne?\" beklentisiyle bitmemişlik hissi yaratır ve uygulamada kalma süresini artırır."
+      ],
+      "image": "../assets/images/slide_11_sonsuz-akış-infinite-scroll.jpeg"
+    },
+    {
+      "id": 8,
+      "title": "Algoritmik Yayılım/Öne Çıkarma (Algorithmic Amplification)",
+      "text": "Sosyal medya ve dijital platformların arkasındaki algoritmaların belirli içeriklerin sesini büyüterek onları bilerek öne çıkarmasıdır.  Algoritmaların amacı doğru bilgiyi yaymak değil, bizi ekranda tutmaktır. İnsanı en hızlı harekete geçiren öfke, korku ve kışkırtma olduğu için algoritmalar en çok etkileşim getiren bu duygusal veya kutuplaştırıcı içerikleri önümüze düşürür. Yaptığımız her beğeni, yorum ve tıklama platformun zaaflarımızı öğrenmesini sağlar; toplanan bu verilerle gelecekte neye tepki vereceğimiz tahmin edilir ve dikkatimiz kâra dönüştürülür.",
+      "paragraphs": [
+        "Sosyal medya ve dijital platformların arkasındaki algoritmaların belirli içeriklerin sesini büyüterek onları bilerek öne çıkarmasıdır.  Algoritmaların amacı doğru bilgiyi yaymak değil, bizi ekranda tutmaktır. İnsanı en hızlı harekete geçiren öfke, korku ve kışkırtma olduğu için algoritmalar en çok etkileşim getiren bu duygusal veya kutuplaştırıcı içerikleri önümüze düşürür. Yaptığımız her beğeni, yorum ve tıklama platformun zaaflarımızı öğrenmesini sağlar; toplanan bu verilerle gelecekte neye tepki vereceğimiz tahmin edilir ve dikkatimiz kâra dönüştürülür."
+      ],
+      "image": "../assets/images/slide_14_algoritmik-amplifikasyon.jpeg"
+    },
+    {
+      "id": 9,
+      "title": "Yankı Odaları (Echo Chambers)",
+      "text": "İnsanların sadece kendi görüşlerini destekleyen kişileri takip edip, farklı düşünenleri dışlamasıyla oluşan kapalı iletişim ortamıdır. Birey kendi tercihiyle girdiği bu kapalı alanda yalnızca kendi inançlarını doğrulayan sesleri duyar ve karşıt fikirlerle bağını keser. Zamanla dışarıdan gelen her farklı haber veya eleştiri otomatik olarak reddedilir. Böylece kişi, sadece kendi dar çevresinde yankılanan sesleri tüm toplumun ortak ve tek gerçeği sanma yanılgısına düşer.",
+      "paragraphs": [
+        "İnsanların sadece kendi görüşlerini destekleyen kişileri takip edip, farklı düşünenleri dışlamasıyla oluşan kapalı iletişim ortamıdır. Birey kendi tercihiyle girdiği bu kapalı alanda yalnızca kendi inançlarını doğrulayan sesleri duyar ve karşıt fikirlerle bağını keser. Zamanla dışarıdan gelen her farklı haber veya eleştiri otomatik olarak reddedilir. Böylece kişi, sadece kendi dar çevresinde yankılanan sesleri tüm toplumun ortak ve tek gerçeği sanma yanılgısına düşer."
+      ],
+      "image": "../assets/images/slide_21_yankı-odaları-echo-chambers.png"
+    },
+    {
+      "id": 10,
+      "title": "Filtre Balonu (Filter Bubble)",
+      "text": "Arama motorları ve sosyal medya algoritmalarının, kullanıcının geçmiş aramalarını, tıklamalarını ve konumunu analiz ederek ona sadece kendi görüşleriyle uyumlu içerikleri sunmasıyla oluşan görünmez dijital sınırları ifade eder. Yankı odalarında kişi farklı fikirleri kendisi dışlar. Örneğin farklı düşünen arkadaşları takipten çıkarır, kendi fikrindeki gruplara katılır. Ancak filtre balonunda bu ayrışma kullanıcının haberi olmadan algoritmik tercihlerle gerçekleşir. Platformlar kullanıcıyı ekranda daha uzun süre tutabilmek amacıyla onun inançlarını sorgulatacak veya rahatsız edecek farklı bakış açılarını sessizce süzgeçten geçirir.",
+      "paragraphs": [
+        "Arama motorları ve sosyal medya algoritmalarının, kullanıcının geçmiş aramalarını, tıklamalarını ve konumunu analiz ederek ona sadece kendi görüşleriyle uyumlu içerikleri sunmasıyla oluşan görünmez dijital sınırları ifade eder. Yankı odalarında kişi farklı fikirleri kendisi dışlar. Örneğin farklı düşünen arkadaşları takipten çıkarır, kendi fikrindeki gruplara katılır. Ancak filtre balonunda bu ayrışma kullanıcının haberi olmadan algoritmik tercihlerle gerçekleşir. Platformlar kullanıcıyı ekranda daha uzun süre tutabilmek amacıyla onun inançlarını sorgulatacak veya rahatsız edecek farklı bakış açılarını sessizce süzgeçten geçirir."
+      ],
+      "image": "../assets/images/slide_22_filtre-balonları-filter-bubbles.jpeg"
+    },
+    {
+      "id": 11,
+      "title": "Grup İçi Yanlılık (In-Group Bias)",
+      "text": "Bireyin kendisinin de ait olduğu grubu (\"iç-grup\" / \"biz\") ait olmadığı gruplara (\"dış-grup\" / \"onlar\") kıyasla daha olumlu değerlendirme, daha çok güvenme ve ayrıcalıklı muamele etme eğilimidir. İnsanlar ait olduğu gruptan (\"biz\") gelen bilgileri otomatik olarak daha dürüst, yetkin ve doğru kabul ederken; karşı gruptan (\"onlar\") gelen bilgilere şüpheyle yaklaşabilir veya otomatik olarak reddedebilir.",
+      "paragraphs": [
+        "Bireyin kendisinin de ait olduğu grubu (\"iç-grup\" / \"biz\") ait olmadığı gruplara (\"dış-grup\" / \"onlar\") kıyasla daha olumlu değerlendirme, daha çok güvenme ve ayrıcalıklı muamele etme eğilimidir. İnsanlar ait olduğu gruptan (\"biz\") gelen bilgileri otomatik olarak daha dürüst, yetkin ve doğru kabul ederken; karşı gruptan (\"onlar\") gelen bilgilere şüpheyle yaklaşabilir veya otomatik olarak reddedebilir."
+      ],
+      "image": "../assets/images/slide_19_iç-grup-dış-grup-ayrımı-biz-ve-onlar.jpeg"
+    },
+    {
+      "id": 12,
+      "title": "Duygusal Kutuplaşma (Affective Polarization)",
+      "text": "İnsanların sadece fikirlerinin farklı olması değil, sırf kendi grubundan değil diye karşı taraftaki insanlara öfke, nefret ve korku beslemesidir. Burada tartışılan konunun ne olduğu önemini yitirir; asıl mesele \"biz\" ve \"onlar\" kavgası haline gelir. İnsanlar karşı görüştekileri artık sadece farklı düşünen biri olarak değil, güvenilmez ve kötü niyetli bir düşman olarak görmeye başlar. Bu durum günlük hayata yayıldığında; insanlar karşı taraftan biriyle komşuluk yapmayı veya arkadaş olmayı bile istemez ve karşı taraftan gelen her bilgiyi, ne kadar doğru olursa olsun sırf söyleyeni yüzünden doğrudan yalan kabul eder.",
+      "paragraphs": [
+        "İnsanların sadece fikirlerinin farklı olması değil, sırf kendi grubundan değil diye karşı taraftaki insanlara öfke, nefret ve korku beslemesidir. Burada tartışılan konunun ne olduğu önemini yitirir; asıl mesele \"biz\" ve \"onlar\" kavgası haline gelir. İnsanlar karşı görüştekileri artık sadece farklı düşünen biri olarak değil, güvenilmez ve kötü niyetli bir düşman olarak görmeye başlar. Bu durum günlük hayata yayıldığında; insanlar karşı taraftan biriyle komşuluk yapmayı veya arkadaş olmayı bile istemez ve karşı taraftan gelen her bilgiyi, ne kadar doğru olursa olsun sırf söyleyeni yüzünden doğrudan yalan kabul eder."
+      ],
+      "image": "../assets/images/slide_20_duygusal-kutuplaşma-affective-polarization.jpeg"
+    },
+    {
+      "id": 13,
+      "title": "Hakikat Ötesi (Post-Truth)",
+      "text": "Somut kanıtların ve nesnel gerçeklerin insanların fikirlerini ve kararlarını değiştirme gücünü yitirdiği dönemi ifade eder. Bu ortamda insanlar bir bilginin kanıtlanmış bir gerçek olup olmadığına değil, kendi duygularına, inançlarına ve var olan önyargılarına uyup uymadığına bakar. Artık asıl önemli olan gerçek değil, sunulan bilginin kişiye ne hissettirdiği ve onun kimliğini destekleyip desteklemediğidir. Zamanla yalan veya manipüle edilmiş içerikler sıradanlaşır; gerçeğin kendisi değersiz ve önemsiz görülmeye başlanır.",
+      "paragraphs": [
+        "Somut kanıtların ve nesnel gerçeklerin insanların fikirlerini ve kararlarını değiştirme gücünü yitirdiği dönemi ifade eder. Bu ortamda insanlar bir bilginin kanıtlanmış bir gerçek olup olmadığına değil, kendi duygularına, inançlarına ve var olan önyargılarına uyup uymadığına bakar. Artık asıl önemli olan gerçek değil, sunulan bilginin kişiye ne hissettirdiği ve onun kimliğini destekleyip desteklemediğidir. Zamanla yalan veya manipüle edilmiş içerikler sıradanlaşır; gerçeğin kendisi değersiz ve önemsiz görülmeye başlanır."
+      ],
+      "image": "../assets/images/slide_25_hakikat-ötesi-post-truth-sarsılan-hakikat.jpeg"
+    }
+  ]
+};
